@@ -6,6 +6,8 @@ Tutorial Maker helps you create those beautiful images of code people share on I
 
 ## Demo
 
+Try it: [Live demo](https://app.explain.dev/)
+
 Demo video: [watch on YouTube](https://www.youtube.com/watch?v=LcKhSe0iVyA).
 
 ### Examples
@@ -91,6 +93,10 @@ Store tutorials in any storage. In order to make it happen, we'd need to seriali
 ### Decouple login from ExplainDev service
 
 Goal: Use any authentication provider
+
+### Plug-in any LLM
+
+Goal: As more LLMs rise and become available, users should be able to select the model that best fit their needs.
 
 ### Docs
 
