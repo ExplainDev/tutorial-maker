@@ -1,0 +1,26 @@
+div.text-explanation-wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+
+
+section#canvas.loading .main-text {
+  opacity: 0.4;
+}
+
+.explanation-text {
+  font-family: Lato;
+  font-weight: 700;
+  overflow-y: hidden !important;
+}
+
+
+.text-explanation-wrapper > .remirror-editor-wrapper {
+  height: inherit;
+
+}
+
+
+.explanation-text { 
+  height: 100%;
+}

@@ -1,0 +1,33 @@
+span.tooltip {
+
+  z-index: 99999999999;
+}
+
+span.tooltip button {
+  font-size: 15px;
+}
+
+.dragbar {
+  cursor:grab;
+}
+
+.range-decorator {
+  background-color: rgba(255, 255, 255, 0.15)	;
+  cursor: help;
+}
+
+
+
+.code-wrapper {
+  transition: 0.25s opacity;
+  background-color: #1E1E1E;
+  box-shadow: 0px 10px 25px -3px rgba(0,0,0,0.5);
+  opacity: 0;
+}
+.code-wrapper:hover .dragbar {
+  background: #E6E6E6;
+}
+
+.highlight-editor {
+  outline: 1px solid yellow;
+}

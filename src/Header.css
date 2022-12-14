@@ -1,0 +1,17 @@
+.download-btn {
+  background-color: #aaf683;
+}
+
+.download-btn:hover {
+  background-color: #b3fe8C;
+}
+
+header {
+  max-height: 50px;
+  background-color: #2c2c2c;
+
+}
+
+img.logo {
+  max-height:50px;
+}

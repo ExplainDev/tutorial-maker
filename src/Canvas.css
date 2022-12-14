@@ -1,0 +1,30 @@
+main.canvas {
+  background-color: var(--bg-canvas);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 50px);
+}
+
+main > #canvas {
+  flex: 1 0 auto;
+  height: 100%;
+}
+
+div.frame {
+  background-color: aliceblue;
+  position: relative;
+
+}
+
+.branding {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  user-select: none;
+}
+
+div.placeholder {
+  font-family: "JetBrains Mono", monospace;
+  color: #EEE;
+}

@@ -1,0 +1,82 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+
+:root {
+  --bg-header: #2c2c2c;
+  --bg-canvas: #E6E6E6;
+}
+
+div.App {
+  min-height: 100vh;
+}
+header,footer {
+
+  color: white;
+}
+
+
+.vert {
+  flex-direction: column;
+}
+.container {
+  height: 100vh;
+}
+
+
+
+
+.scroll {
+  overflow-y: auto;
+}
+
+
+.explanation-text code {
+  background-color: rgba(0,0,0,0.15);
+  border-radius: 5px;
+  font-family: "JetBrains Mono", monospace;
+  padding:0.05em 0.15em;
+}
+
+
+
+
+
+.text-dragbar {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px 1px 0 solid #AAA;
+  height: 12px;
+  border-radius: 5px 5px 0 0;
+  top: -15px;
+  left: 0;
+  right: 0;
+  cursor: grab;
+  visibility: hidden;
+}
+
+#text-rnd:hover .text-draghandle-top {
+  border-top: 1px solid rgba(25, 25, 25, 0.24);
+}
+
+#text-rnd:hover .text-draghandle-top-left {
+  background:rgba(25, 25, 25, 0.24);
+  height: 10px;
+  width: 10px;
+}
+
+#text-rnd:hover .text-draghandle-right {
+  width: 2px;
+  border-right: 1px solid rgba(25, 25, 25, 0.24); 
+}
+#text-rnd:hover .text-draghandle-bottom {
+  background-color: red;
+}
+#text-rnd:hover .text-draghandle-left {
+  border-left: 1px solid rgba(25, 25, 25, 0.24);
+}
+
+
+
+#text-rnd:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+

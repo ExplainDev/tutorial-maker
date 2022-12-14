@@ -1,0 +1,9 @@
+dialog {
+  background-color: transparent;
+  margin: auto;
+  z-index: 1000;
+}
+
+dialog::backdrop {
+  background-color: #43434352;
+}
