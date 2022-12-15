@@ -1,8 +1,8 @@
 # ExplainDev Tutorial Maker
 
-Instead of wasting time thinking of a better name, we use our time to make this awesome little project *opensource*.
+Instead of wasting time thinking of a better name, we use it to make this awesome little project *opensource*.
 
-Tutorial Maker helps you create those beautiful images of code people share on Internet, explained with AI.
+Tutorial Maker helps you create those beautiful images of code people share on the Internet, explained using AI.
 
 ## Demo
 
