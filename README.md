@@ -50,6 +50,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+Installs project dependencies that are needed to run the project locally. You need to do this when you first clone the project or the npm commands below will not work.
+
 ### `npm start`
 
 Runs the app in the development mode.
